@@ -1,0 +1,19 @@
+---
+import "../styles/style.css";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Wikipaedi Search">
+  <div class="container">
+    <h1 class="main-header animate__animated animate__backInDown">
+      WIKI PA EDI
+    </h1>
+    <form class="search-box">
+      <input type="text" placeholder="Mau Cari Apa Maszheh ?" />
+      <button type="reset"></button>
+    </form>
+    <p class="counter">Hasil Pencarian :</p>
+  </div>
+
+  <div class="results"></div>
+</Layout>
